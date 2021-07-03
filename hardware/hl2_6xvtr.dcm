@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADE-1H+
+D Mixer, +17 dBm LO, 0.05 to 250 MHz
+K mixer rf
+F https://www.mouser.co.uk/datasheet/2/1030/ADE-1H_2b-1700018.pdf
+$ENDCMP
+#
+$CMP PGA-105
+D 50MHz to 4000MHz, GaAs pHEMT low noise MMIC amplifier, SOT-89
+K RF GAIN BLOCK
+F www.qorvo.com/products/d/da001910
+$ENDCMP
+#
+$CMP SPF5189Z
+D 50MHz to 4000MHz, GaAs pHEMT low noise MMIC amplifier, SOT-89
+K RF GAIN BLOCK
+F www.qorvo.com/products/d/da001910
+$ENDCMP
+#
+#End Doc Library

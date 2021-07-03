@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name n2adr)(type KiCad)(uri ${KIPRJMOD}/libs/n2adr.pretty)(options "")(descr ""))
+  (lib (name hermeslite)(type KiCad)(uri ${KIPRJMOD}/libs/hermeslite.pretty)(options "")(descr ""))
+)
