@@ -145,7 +145,7 @@ Wire Wire Line
 	11300 8175 11400 8175
 Connection ~ 11300 8175
 Text Notes 12750 7650 0    50   ~ 0
-50.3 MHz BPF\n1.6 dB IL BW 5 MHz
+1) 50.3 MHz BPF, 1.6 dB IL BW 5 MHz (green)
 Wire Wire Line
 	10850 8525 10850 8575
 Wire Wire Line
@@ -906,8 +906,8 @@ Wire Wire Line
 	10850 5875 10850 5850
 Wire Wire Line
 	10850 5525 11200 5525
-Text Notes 7775 6950 0    50   ~ 0
-Triple-tuned band pass filter (see EMRFD)\nApprox 3 MHz BW, 4 dB IL
+Text Notes 7600 6825 0    50   ~ 0
+1) 50 MHz - Triple-tuned band pass filter (see EMRFD), \n    Approx 3 MHz BW, 4 dB IL (green)\n2) 144 MHz (blue)
 Wire Wire Line
 	14075 8175 14350 8175
 $Comp
@@ -1395,7 +1395,7 @@ L hl2_6xvtr:C_Small C39
 U 1 1 61B5E6AE
 P 12525 6625
 F 0 "C39" H 12433 6579 50  0000 R CNN
-F 1 "62p" H 12433 6670 50  0000 R CNN
+F 1 "56p" H 12433 6670 50  0000 R CNN
 F 2 "hermeslite:SMD-0603_c" H 12525 6625 50  0001 C CNN
 F 3 "" H 12525 6625 50  0001 C CNN
 	1    12525 6625
@@ -1484,8 +1484,8 @@ $Comp
 L hl2_6xvtr:L_Small-Device L16
 U 1 1 61D7B977
 P 12525 5725
-F 0 "L16" H 12573 5771 50  0000 L CNN
-F 1 "470nH" H 12573 5680 50  0000 L CNN
+F 0 "L16" H 12350 5825 50  0000 L CNN
+F 1 "470nH" H 12250 5750 50  0000 L CNN
 F 2 "hermeslite:SMD-0805" H 12525 5725 50  0001 C CNN
 F 3 "" H 12525 5725 50  0001 C CNN
 F 4 "Mouser: 994-0805HP-471XGRC" H 12525 5725 50  0001 C CNN "Vendor"
@@ -1882,7 +1882,7 @@ L hl2_6xvtr:R R38
 U 1 1 608E8DAB
 P 4325 3600
 F 0 "R38" V 4225 3550 50  0000 L CNN
-F 1 "220k" V 4150 3550 50  0000 L CNN
+F 1 "150k" V 4150 3550 50  0000 L CNN
 F 2 "hermeslite:SMD-0603_r" V 4255 3600 50  0001 C CNN
 F 3 "" H 4325 3600 50  0001 C CNN
 	1    4325 3600
@@ -2654,4 +2654,86 @@ Wire Wire Line
 	1000 7875 3225 7875
 Text Notes 5525 10225 0    50   ~ 0
 6 dB attenuator
+Text Notes 12100 7875 0    50   ~ 0
+2.7p
+Text Notes 13875 7875 0    50   ~ 0
+2.7p
+Text Notes 13475 8325 0    50   ~ 0
+5.6p
+Text Notes 12625 8325 0    50   ~ 0
+5.6p
+Text Notes 13075 7900 0    50   ~ 0
+0.5p
+Text Notes 13775 8550 0    50   ~ 0
+150 nH
+Text Notes 12625 6800 0    50   ~ 0
+10p
+Text Notes 13325 6825 0    50   ~ 0
+33p
+Text Notes 14025 6825 0    50   ~ 0
+8.2p
+Text Notes 13575 6550 0    50   ~ 0
+3.3p
+Text Notes 12850 6525 0    50   ~ 0
+1.2p
+Text Notes 12825 5750 0    50   ~ 0
+68n
+Text Notes 13550 5750 0    50   ~ 0
+68n
+Text Notes 12750 7750 0    50   ~ 0
+2) 1.2 dB IL, 20 MHz bw 144.5 MHz (BLUE)
+Text Notes 8000 7425 0    50   ~ 0
+0.5p
+Text Notes 9100 7425 0    50   ~ 0
+0.5p
+Text Notes 8375 7475 0    50   ~ 0
+2.7p\n4.7p
+Text Notes 7200 7000 0    50   ~ 0
+3.3p
+Text Notes 9800 6975 0    50   ~ 0
+3.3p
+Text Notes 9375 7450 0    50   ~ 0
+4.7p
+Text Notes 7600 7475 0    50   ~ 0
+4.7p
+Text Notes 9575 8175 0    50   ~ 0
+220nH
+Text Notes 7800 8200 0    50   ~ 0
+220nH
+Wire Notes Line
+	10075 8275 10075 6500
+Wire Notes Line
+	12600 5350 12600 6125
+Wire Notes Line
+	12600 6125 12375 6125
+Wire Notes Line
+	12375 6125 12375 7075
+Wire Notes Line
+	12375 7075 15175 7075
+Wire Notes Line
+	15175 7075 15175 5350
+Wire Notes Line
+	15175 5350 12600 5350
+Wire Notes Line
+	12000 7375 12000 9425
+Wire Notes Line
+	12000 9425 14775 9425
+Wire Notes Line
+	14775 9425 14775 7375
+Wire Notes Line
+	14775 7375 12000 7375
+Wire Notes Line
+	7050 6500 7050 8275
+Text Notes 12900 8575 0    50   ~ 0
+150 nH
+Text Notes 9675 7725 0    50   ~ 0
+150 nH
+Text Notes 8975 7725 0    50   ~ 0
+150 nH
+Text Notes 7925 7775 0    50   ~ 0
+150 nH
+Wire Notes Line
+	7050 6500 10075 6500
+Wire Notes Line
+	10075 8275 7050 8275
 $EndSCHEMATC
